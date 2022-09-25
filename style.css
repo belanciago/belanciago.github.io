@@ -1,0 +1,148 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/inter-v12-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/inter-v12-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/inter-v12-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/inter-v12-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('fonts/inter-v12-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/inter-v12-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  /* inter-800 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('fonts/inter-v12-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/inter-v12-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/inter-v12-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/inter-v12-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('fonts/inter-v12-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/inter-v12-latin-800.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+
+  html{
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: white;
+  }
+
+  .wrapper{
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 18px;
+  }
+  .header_list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_item{
+    margin-right: 12px;
+  }
+  .header_item:last-child{
+    margin-right: 0;
+  }
+  .header_link{
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    text-decoration: none;
+  }
+  .header_link:hover,.header_link:focus, .header_link:active{
+    color: #6A67DF;
+  }
+
+  .intro{
+    min-height:100vh;
+    background: url(img/intro-background.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 300px;
+  }
+
+  .intro_title{
+    max-width:580px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #FFFFFF;
+    margin-bottom: 5px;
+  }
+  .intro_subtitle{
+    max-width:789px;
+    color:#6A67DF;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 55px;
+  }
+  .email-form_info{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .email-form_field{
+    width: 297px;
+    background-color: transparent;
+    background:url(img/circle-item.svg) no-repeat left top;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 3px solid #FFFFFF;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    color: #fff;
+  }
+  .email-form_submit{
+    padding:15px 39px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background: #6A67DF;
+    border:0;
+  }
+  .email-form_submit:hover, .email-form_submit:focus, .email-form_submit:active{
+    background: #423FB2;
+  }
+  .logosrc{
+    float: right;
+  }
